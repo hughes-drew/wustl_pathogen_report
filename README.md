@@ -18,7 +18,7 @@ The results are saved as an RData file.
 
 The shiny application takes the preprocessed values and displays them in a simple web application:
 
-- [app.R](code/app/app.R): application script
-- [app_utils.R](code/app/app_utils.R): collection of helper functions called by the [app.R](code/app/app.R)
+- [app.R](code/app/app.R): main application script
+- [app_utils.R](code/app/app_utils.R): collection of helper functions called by [app.R](code/app/app.R)
 
 #### To-Do Items
