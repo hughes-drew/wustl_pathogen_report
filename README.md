@@ -1,7 +1,15 @@
 ## WUSTL Pathogen Report
 
 ### Overview
-This repository contains code for a shiny application that displays summaries of hospital test results for a set of target pathogens with limited reactivity. A demo is currently available at the following URL:
+This repository contains code for a shiny application that displays summaries of hospital test results for a set of target pathogens with limited reactivity. The application can be downloaded and run locally with:
+
+```
+$ git clone https://github.com/hughes-drew/wustl_pathogen_report
+$ cd wustl_pathogen_report/code/app
+$ Rscript app.R
+```
+
+A demo is also available at the following URL:
 
 - [hughesdrew.shinyapps.io/pathogen_report/](https://hughesdrew.shinyapps.io/pathogen_report/)
 
