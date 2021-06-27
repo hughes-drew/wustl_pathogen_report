@@ -16,7 +16,7 @@ A demo is also available at the following URL:
 Note: this application is a prototype, and core functions are still in development (see below). **This application and the underlying data are not validated and should not be used for clinical or public health purposes.**
 
 ### Preprocess
-The source data are currently stored as a collection of individual .csv files (one per week) that include test-level results and associated metadata (not tracked in this repository). The following script aggregates these results, adds week and month labels, and pre-calculates seasonal summary statistics (July 1 through June 30):
+The source data are currently stored as individual .csv files (one per week) that include test-level results and associated metadata (not tracked in this repository). The following script aggregates these results, adds week and month labels, and pre-calculates seasonal summary statistics (July 1 through June 30):
 
 - [preprocess.R](code/preprocess/preprocess.R)
 
