@@ -12,7 +12,7 @@ The source data are currently stored in a folder of .csv files (one per week) th
 
 - [preprocess.R](code/preprocess/preprocess.R)
 
-The results are saved as an RData file.
+The results are saved as an RData file and stored in a public Dropbox folder.
 
 #### Shiny App
 
