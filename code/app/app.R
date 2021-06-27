@@ -386,7 +386,7 @@ server <- function(input, output, session) {
       mutate(
         period = case_when(
           week >= table_anchorDate() ~ "t2",
-          week ~ "t1"
+          TRUE ~ "t1"
         ) #split observations into period requested (t2) and preceeding/reference period (t1)
       ) %>%
       select(-week) %>%
@@ -711,4 +711,4 @@ server <- function(input, output, session) {
 }
 
 #run app
-shinyApp(ui, server)
+shinyApp(ui, server, options = list(launch.browser = TRUE))

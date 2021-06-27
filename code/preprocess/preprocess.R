@@ -41,8 +41,14 @@ df <-
         RESULT %in% c("Negative", "Presumptive Negative", "Not Detected") ~ "negative",
         TRUE ~ RESULT
       ),
-      week = lubridate::floor_date(as.Date(DRAWN, format = "%d %b %y"), unit = "week"),
-      month = lubridate::floor_date(as.Date(DRAWN, format = "%d %b %y"), unit = "month")
+      week = lubridate::floor_date(
+        lubridate::parse_date_time(DRAWN, order = "%d %b %y %H:%M:%S"),
+        unit = "week"
+      ),
+      month = lubridate::floor_date(
+        lubridate::parse_date_time(DRAWN, order = "%d %b %y %H:%M:%S"),
+        unit = "month"
+      )
     ) %>%
     rename(
       facility = FACILITY
@@ -82,4 +88,4 @@ season <- df %>%
   )
 
 #save tables
-save(df, season, file = "../../data/preprocessed/preprocessed.rda")
+save(df, season, file = "~/Dropbox/Public/preprocessed.rda")
