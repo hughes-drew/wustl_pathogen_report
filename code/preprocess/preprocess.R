@@ -56,7 +56,7 @@ df <-
     ) %>%
     filter(
       !is.na(target) &
-      week != "2021-03-19"
+      week != "2021-04-19"
     ) %>%
     as_tibble()
 
@@ -82,4 +82,4 @@ season <- df %>%
   )
 
 #save tables
-save(df, season, file = "../../data/preprocessed/preprocessed.Rdat")
+save(df, season, file = "../../data/preprocessed/preprocessed.rda")
