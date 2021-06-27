@@ -37,8 +37,8 @@ df <-
         ) ~ "Ehrlichia / Anaplasma"
       ),
       result = case_when(
-        RESULT %in% c("Positive", "Presumptive Positive", "Detected") ~ "Positive",
-        RESULT %in% c("Negative", "Presumptive Negative", "Not Detected") ~ "Negative",
+        RESULT %in% c("Positive", "Presumptive Positive", "Detected") ~ "positive",
+        RESULT %in% c("Negative", "Presumptive Negative", "Not Detected") ~ "negative",
         TRUE ~ RESULT
       ),
       week = lubridate::floor_date(as.Date(DRAWN, format = "%d %b %y"), unit = "week"),

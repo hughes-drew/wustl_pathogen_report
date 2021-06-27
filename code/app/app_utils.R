@@ -7,7 +7,7 @@ close(connection)
 
 #define clinical data lists
 age_list <- c(
-  "Adult", 
+  "Adult",
   "Pediatric"
 )
 
@@ -22,8 +22,8 @@ location_list <- c(
 )
 
 setting_list <- c(
-  "ED", 
-  "Inpatient", 
+  "ED",
+  "Inpatient",
   "Outpatient"
 )
 
@@ -72,7 +72,7 @@ pathogen_list <- list(
 )
 
 #define time periods
-month_list <- 
+month_list <-
   unique(
     lubridate::floor_date(
       seq(
@@ -90,14 +90,14 @@ date_list <- seq(
   by = "6 month"
 )
 
-week_list <- 
+week_list <-
   seq(
     lubridate::floor_date(as.Date("2016-01-01"), unit = "week"),
     lubridate::floor_date(as.Date("2021-04-11"), unit = "week"),
     by = "1 week"
   )
 
-year_list <- 
+year_list <-
   unique(
     lubridate::floor_date(
       seq(
@@ -109,11 +109,11 @@ year_list <-
     )
   )
 
-season_list <- 
+season_list <-
   if (lubridate::month(lubridate::ceiling_date(as.Date("2021-04-11"), unit = "halfyear")) == 1){
     paste(
-      lubridate::year(year_list), 
-      lubridate::year(year_list) + 1, 
+      lubridate::year(year_list),
+      lubridate::year(year_list) + 1,
       sep = "-"
     )
   } else {
