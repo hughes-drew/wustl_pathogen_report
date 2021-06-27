@@ -3,7 +3,7 @@
 #### Overview
 This repository contains code for a shiny application that displays summaries of hospital test results for a set of target pathogens with limited reactivity. A demo is currently available at the following URL:
 
-- [https://hughesdrew.shinyapps.io/pathogen_report/](https://hughesdrew.shinyapps.io/pathogen_report/)
+- [hughesdrew.shinyapps.io/pathogen_report/](https://hughesdrew.shinyapps.io/pathogen_report/)
 
 Note: this application is a prototype, and core functions are still in development (see below). **This application and the underlying data are not validated and should not be used for clinical or public health purposes.**
 
