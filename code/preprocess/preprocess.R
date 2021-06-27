@@ -41,8 +41,8 @@ df <-
         RESULT %in% c("Negative", "Presumptive Negative", "Not Detected") ~ "Negative",
         TRUE ~ RESULT
       ),
-      week = lubridate::floor_date(as.Date(DRAWN, format="%d %b %y"), unit = "week"),
-      month = lubridate::floor_date(as.Date(DRAWN, format="%d %b %y"), unit = "month")
+      week = lubridate::floor_date(as.Date(DRAWN, format = "%d %b %y"), unit = "week"),
+      month = lubridate::floor_date(as.Date(DRAWN, format = "%d %b %y"), unit = "month")
     ) %>%
     rename(
       facility = FACILITY
