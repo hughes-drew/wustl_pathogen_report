@@ -19,7 +19,7 @@ The results are saved as an RData file and stored in a public Dropbox folder.
 The shiny application takes the preprocessed values and displays them in a web application:
 
 - [app.R](code/app/app.R): main application script
-- [app_utils.R](code/app/app_utils.R): collection of helper functions called by [app.R](code/app/app.R)
+- [app_utils.R](code/app/app_utils.R): collection of helper functions and reference data called by [app.R](code/app/app.R)
 
 ### To-Do List
 
