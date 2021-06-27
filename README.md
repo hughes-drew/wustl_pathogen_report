@@ -8,4 +8,8 @@ The source data are currently stored as collection of .csv files (one per week) 
 
 - [preprocess.R](code/preprocess/preprocess.R)
 
+The results are saved as an RData file.
+
 #### Shiny App
+
+j
