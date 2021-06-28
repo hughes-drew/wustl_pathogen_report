@@ -4,7 +4,7 @@
 This repository contains code for a shiny app that displays summaries of clinical microbiology test results from BJC system hospitals.
 
 ### Getting Started
-The app uses the following R packages:
+Required R packages:
 
 - [ggiraph](https://github.com/davidgohel/ggiraph)
 - [lubridate](https://github.com/tidyverse/lubridate)
