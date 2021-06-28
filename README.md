@@ -1,7 +1,7 @@
 ## WUSTL Pathogen Report
 
 ### Overview
-This repository contains code for a shiny application that displays summaries of clinical microbiology test results from BJC system hospitals. The application can be downloaded and run locally with:
+This repository contains code for a shiny app that displays summaries of clinical microbiology test results from BJC system hospitals. The app can be downloaded and run locally with:
 
 ```
 $ git clone https://github.com/hughes-drew/wustl_pathogen_report
@@ -13,7 +13,7 @@ In addition, a demo is also available at:
 
 - [hughesdrew.shinyapps.io/pathogen_report/](https://hughesdrew.shinyapps.io/pathogen_report/)
 
-Note: this application is a prototype, and core functions are still in development (see below). **The application and underlying data have not been validated and should not be used for clinical or public health purposes.**
+Note: this app is a prototype, and core functions are still in development (see below). **The app and underlying data have not been validated and should not be used for clinical or public health purposes.**
 
 ### Preprocessing
 The source data are currently stored as individual .csv files (one per week) that include test-level results and associated metadata (not tracked in this repository). The following script aggregates these results, adds week and month labels, and calculates seasonal summary statistics:
@@ -22,7 +22,7 @@ The source data are currently stored as individual .csv files (one per week) tha
 
 The results are stored as an RData file in a public Dropbox folder.
 
-### Application
+### App
 
 Displays preprocessed values in a web browser with limited reactivity:
 
@@ -36,5 +36,5 @@ Preprocessing
 - Patient clinical setting (ED, inpatient, outpatient): need to be mapped from patient location
 - Patient hospital: need to be mapped from patient location
 
-Application
+App
 - Filters using age, clinical setting, and hospital have been templated, but need to be validated once data are available
