@@ -42,14 +42,14 @@ df <-
         TRUE ~ RESULT
       ),
       week = lubridate::floor_date(
-        lubridate::parse_date_time(DRAWN, order = "%d %b %y %H:%M:%S"),
+        lubridate::parse_date_time(RECEIVED, order = "%d %b %y %H:%M:%S"),
         unit = "week"
       ),
       month = lubridate::floor_date(
-        lubridate::parse_date_time(DRAWN, order = "%d %b %y %H:%M:%S"),
+        lubridate::parse_date_time(RECEIVED, order = "%d %b %y %H:%M:%S"),
         unit = "month"
       )
-    ) %>%
+    ) #%>%
     rename(
       facility = FACILITY
     ) %>%
