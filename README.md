@@ -1,7 +1,18 @@
 ## WUSTL Pathogen Report
 
 ### Overview
-This repository contains code for a shiny app that displays summaries of clinical microbiology test results from BJC system hospitals. The app can be downloaded and run locally with:
+This repository contains code for a shiny app that displays summaries of clinical microbiology test results from BJC system hospitals.
+
+### Getting Started
+The app uses the following packages:
+
+- [tidyverse](https://github.com/tidyverse/tidyverse)
+- [shiny](https://github.com/rstudio/shiny)
+- [shinyWidgets](https://github.com/dreamRs/shinyWidgets)
+- [ggiraph](https://github.com/davidgohel/ggiraph)
+- [reactable](https://github.com/glin/reactable)
+
+It can be downloaded and run locally with:
 
 ```
 $ git clone https://github.com/hughes-drew/wustl_pathogen_report
