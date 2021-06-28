@@ -32,7 +32,7 @@ The shiny application takes the preprocessed values and displays them in a web a
 ### To Do
 
 Preprocessing
-- [ ] Patient age (pediatric vs. adult): not captured by the current internal database query
+- [ ] Patient age (pediatric, adult): not captured by the current internal database query
 - [ ] Patient clinical setting (ED, inpatient, outpatient): need to be mapped from patient location information
 - [ ] Patient location: need to be mapped from patient location information
 
