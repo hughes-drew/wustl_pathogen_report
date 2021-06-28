@@ -9,7 +9,7 @@ $ cd wustl_pathogen_report/code/app
 $ Rscript app.R
 ```
 
-Alternatively, a demo is also available at:
+In addition, a demo is also available at:
 
 - [hughesdrew.shinyapps.io/pathogen_report/](https://hughesdrew.shinyapps.io/pathogen_report/)
 
