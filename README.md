@@ -22,9 +22,9 @@ The source data are currently stored as individual .csv files (one per week) tha
 
 The results are stored as an RData file in a public Dropbox folder.
 
-### Shiny Application
+### Application
 
-The shiny application takes the preprocessed values and displays them in a web application:
+Displays preprocessed values in a web browser with limited reactivity:
 
 - [app.R](code/app/app.R): main script
 - [app_utils.R](code/app/app_utils.R): collection of helper functions and reference data
@@ -36,5 +36,5 @@ Preprocessing
 - Patient clinical setting (ED, inpatient, outpatient): need to be mapped from patient location
 - Patient hospital: need to be mapped from patient location
 
-Shiny Application
+Application
 - Filters using age, clinical setting, and hospital have been templated, but need to be validated once data are available
