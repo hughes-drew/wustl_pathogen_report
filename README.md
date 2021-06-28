@@ -14,7 +14,7 @@ The app uses the following R packages:
 - [reactable](https://github.com/glin/reactable)
 - [lubridate](https://github.com/tidyverse/lubridate)
 
-It can be downloaded and run locally with:
+The source code can be downloaded and run locally with:
 
 ```
 $ git clone https://github.com/hughes-drew/wustl_pathogen_report
