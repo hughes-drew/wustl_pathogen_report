@@ -14,7 +14,7 @@ Required R packages:
 - [shinyWidgets](https://github.com/dreamRs/shinyWidgets)
 - [tidyverse](https://github.com/tidyverse/tidyverse)
 
-The source code can be downloaded and run locally with:
+The app can be downloaded and run locally with:
 
 ```
 $ git clone https://github.com/hughes-drew/wustl_pathogen_report
