@@ -6,13 +6,13 @@ This repository contains code for a shiny app that displays summaries of clinica
 ### Getting Started
 The app uses the following R packages:
 
-- [tidyverse](https://github.com/tidyverse/tidyverse)
-- [shiny](https://github.com/rstudio/shiny)
-- [shinyWidgets](https://github.com/dreamRs/shinyWidgets)
-- [shinythemes](https://github.com/rstudio/shinythemes)
 - [ggiraph](https://github.com/davidgohel/ggiraph)
-- [reactable](https://github.com/glin/reactable)
 - [lubridate](https://github.com/tidyverse/lubridate)
+- [reactable](https://github.com/glin/reactable)
+- [shiny](https://github.com/rstudio/shiny)
+- [shinythemes](https://github.com/rstudio/shinythemes)
+- [shinyWidgets](https://github.com/dreamRs/shinyWidgets)
+- [tidyverse](https://github.com/tidyverse/tidyverse)
 
 The source code can be downloaded and run locally with:
 
@@ -37,7 +37,7 @@ The results are stored as an RData file in a public Dropbox folder.
 
 ### App
 
-Displays preprocessed values in a web browser with limited reactivity:
+The app display preprocessed values in a web browser with limited reactivity:
 
 - [app.R](code/app/app.R): main script
 - [app_utils.R](code/app/app_utils.R): collection of helper functions and reference data
