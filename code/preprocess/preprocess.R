@@ -49,7 +49,7 @@ df <-
         lubridate::parse_date_time(RECEIVED, order = "%d %b %y %H:%M:%S"),
         unit = "month"
       )
-    ) #%>%
+    ) %>%
     rename(
       facility = FACILITY
     ) %>%
