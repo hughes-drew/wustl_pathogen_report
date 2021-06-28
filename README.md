@@ -29,7 +29,7 @@ The shiny application takes the preprocessed values and displays them in a web a
 - [app.R](code/app/app.R): main script
 - [app_utils.R](code/app/app_utils.R): collection of helper functions and reference data
 
-### To-Do List
+### To Do
 
 Preprocessing
 - [ ] Patient age (pediatric vs. adult): not captured by the current internal database query
