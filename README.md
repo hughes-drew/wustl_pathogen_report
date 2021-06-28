@@ -9,8 +9,10 @@ The app uses the following R packages:
 - [tidyverse](https://github.com/tidyverse/tidyverse)
 - [shiny](https://github.com/rstudio/shiny)
 - [shinyWidgets](https://github.com/dreamRs/shinyWidgets)
+- [shinythemes](https://github.com/rstudio/shinythemes)
 - [ggiraph](https://github.com/davidgohel/ggiraph)
 - [reactable](https://github.com/glin/reactable)
+- [lubridate](https://github.com/tidyverse/lubridate)
 
 It can be downloaded and run locally with:
 
